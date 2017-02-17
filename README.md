@@ -9,7 +9,7 @@ git add .
 git commit -m "first commit"
 git remote add origin https://github.com/mwolniak/test.git
 git push -u origin master
-
+(tutaj nas prawdopodobnie zapyta o dane dostepowe do githuba)
 
 
 4.
