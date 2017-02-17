@@ -1,6 +1,8 @@
 1.Tworzymy repozytorium na git (prawy gorny rog i plusik)
-2. otwieramy katalog, w ktorym jest nasz projekt i otwieramy konsole "git bash";
-3. Wykonujemy nastepujace komendy:
+
+2.otwieramy katalog, w ktorym jest nasz projekt i otwieramy konsole "git bash";
+
+3.Wykonujemy nastepujace komendy:
 
 git init
 
@@ -11,7 +13,7 @@ git push -u origin master
 
 
 
-4.
+4.Przydatne polecenia
 
 potem aby sprawdzac i/lub dodawac nowy kod do repozytorium posługujemy sie nastepujacymi komendami ;
 git log (pokazuje historie naszych commitow)
