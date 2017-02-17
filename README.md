@@ -1,26 +1,25 @@
-# CSS &ndash; kaskadowe arkusze stylów
+1.Tworzymy repozytorium na git (prawy gorny rog i plusik)
+2. otwieramy katalog, w ktorym jest nasz projekt i otwieramy konsole "git bash"
 
-## Zadanie 1.
-Stwórz jeden **paragraf**, ustaw dla niego poniższe style i przetestuj ich działanie.
+3. Wykonujemy nastepujace komendy:
 
-![Przesłanianie](images/ex1.jpg)
+git init
 
-  Potrafisz wytłumaczyć rezultat?
+git add . 
+git commit -m "first commit"
+git remote add origin https://github.com/mwolniak/test.git
+git push -u origin master
 
-## Zadanie 2.
-Stwórz dwa **paragrafy** i ostyluj każdy w następujący sposób:
-* pierwszemu ustaw wielkość fontu ```font-size: 20px```,
-* drugiemu ustaw wielkość fontu ```font-size: 10px```.
 
-## Zadanie 3.
-Stwórz dwa **paragrafy** oraz jeden element **span** i wszystkim elementom ustaw tło w kolorze żółtym (```yellow```).
 
-## Zadanie 4.
-Stwórz jeden **div**. Wpisz do niego dowolny, krótki tekst. Nadaj elementowi klasę oraz identyfikator. Następnie w CSS ostyluj go w następujący sposób:
+4.
 
-![Specyfikacja_selektorów](images/ex2.jpg)
+potem aby sprawdzac i/lub dodawac nowy kod do repozytorium posługujemy sie nastepujacymi komendami ;
+git log (pokazuje historie naszych commitow)
+git status (sprawdzamy czy dodalismy pliki do etapu, w ktorym mozemy je zcommitowac)
+git add . (przygotowuje wszystkie pliki do wrzucenia w commit)
+git commit -m "tresc commita" ( commitujemy plik)
 
- Sprawdź, które tło zostanie przypisane elementowi **div**.
-
-## Zadanie 5.
-Wróć do paragrafu z zadania pierwszego. Wymuś na nim użycie pierwszego stylu (```font-size: 12px```) za pomocą słowa kluczowego ```!important```.
+git push (to powinno działać po ostatnim kroku w punkcie 3.)
+ALBO
+git push -u origin master 
